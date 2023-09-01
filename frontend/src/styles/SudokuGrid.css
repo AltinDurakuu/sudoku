@@ -1,0 +1,16 @@
+.sudoku-row:nth-child(3n){
+    border-bottom: 3px solid black;
+}
+.sudoku-row{
+    border-left: 3px solid black;
+}
+.sudoku-row:first-child{
+    border-top: 3px solid black;
+
+}
+.sudoku-row input{
+    border: 1px solid #ccc;
+}
+.sudoku-row input:nth-child(3n){
+    border-right: 3px solid black;
+}
